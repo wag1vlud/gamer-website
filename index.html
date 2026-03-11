@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Gamer Zone</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        header {
+            background: linear-gradient(90deg, #6a00ff, #00eaff);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 20px #6a00ff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .sub {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #1a1a1a;
+            width: 300px;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,255,255,0.2);
+            transition: 0.3s;
+            border: 1px solid #222;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(0,255,255,0.4);
+        }
+
+        .card h2 {
+            color: #00eaff;
+            margin-top: 0;
+        }
+
+        .genre {
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gamer Zone</h1>
+    <p class="sub">Filme & Games im Neon‑Look</p>
+</header>
+
+<div class="content">
+
+    <div class="card">
+        <h2>Cyberpunk 2077</h2>
+        <p class="genre">Genre: Sci‑Fi, Action</p>
+        <p>Eine futuristische Open‑World voller Neon, Chaos und Story‑Power.</p>
+    </div>
+
+    <div class="card">
+        <h2>Ready Player One</h2>
+        <p class="genre">Genre: Sci‑Fi, Abenteuer</p>
+        <p>Ein Film, der Gaming‑Kultur feiert wie kein anderer.</p>
+    </div>
+
+    <div class="card">
+        <h2>Doom Eternal</h2>
+        <p class="genre">Genre: Shooter</p>
+        <p>Brutal schnell, heavy Metal und pure Action.</p>
+    </div>
+
+    <div class="card">
+        <h2>Tron: Legacy</h2>
+        <p class="genre">Genre: Sci‑Fi</p>
+        <p>Legendärer Neon‑Look und einer der besten Soundtracks überhaupt.</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Gamer Zone – Powered by Apache
+</footer>
+
+</body>
+</html>
