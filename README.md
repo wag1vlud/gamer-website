@@ -1,24 +1,26 @@
 # Gamer Website
 
 Dies ist meine persönliche Gamer‑Website, die ich selbst entwickelt habe.  
-Hier zeige ich meine Projekte, Designs, Ideen und alles, was mit Gaming zu tun hat.
+Hier präsentiere ich meine Projekte, Designs und alles rund um Gaming.
 
 ## 🔗 Live‑Version
 
-👉 **https://DEINNAME.github.io/gamer-website**
-
-(Den Link ersetzen wir gleich mit deinem echten GitHub‑Pages‑Link.)
+👉 **https://wag1vlud.github.io/gamer-website/**  
+(Dies ist die öffentlich erreichbare Version meiner Website über GitHub Pages.)
 
 ## 📁 Inhalte
 
 - Startseite
-- Bilder & Designs- HTML / CSS / JS Dateien
+- HTML / CSS / JavaScript Dateien
+- Bilder und Assets
 - Weitere Features folgen
 
 ## 🧑‍💻 Technologien
 
-- HTML
-- CSS
-- JavaScript
-- Apache / Linux
-# Meine Gamer Website
+- HTML  
+- CSS  
+- JavaScript  
+- Git & GitHub  
+- GitHub Pages  
+- Linux / Apache2
+
